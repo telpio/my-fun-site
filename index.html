@@ -1,64 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>KATAMARI</title>
-    <link rel="shortcut icon" href="pics_gifs/frog.png">
+<head>
+  <meta charset="UTF-8">
+  <title>KATAMARI</title>
+  <link rel="shortcut icon" href="pics_gifs/frog.png">
 
-      <style>
+  <style>
     body {
-      background-image: radial-gradient(circle, #ffa3e6 10%, transparent 15%),
-                        radial-gradient(circle, #6bffb8 10%, transparent 15%);
+      background-image:
+        radial-gradient(circle, #ffa3e6 10%, transparent 15%),
+        radial-gradient(circle, #6bffb8 10%, transparent 15%);
       background-size: 40px 40px;
       background-position: 0 0, 20px 20px;
-      color: #111;
-      
+
       font-family: "Courier New", monospace;
       font-size: 16px;
       font-weight: bold;
       line-height: 1.5;
-      color: #50b02e; }
+      color: #50b02e;
+      text-align: center;
+    }
+
     span {
       display: block;
-      background:#ecf7e9;
-      padding:px;
-      margin-bottom:px; 
-      font-size:16px; 
+      background: #ecf7e9;
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
     }
-      </style>
-    
+
+    img {
+      margin: 10px 0;
+    }
+  </style>
 </head>
-<center>
-  <body>
-  <div><span><p>Welcome to a brief study of the video game:</p></span>
-  <img src="pics_gifs/logo.png" alt="Katamari Damacy America logo" width="150" height="auto"></div>
+
+<body>
 
   <div>
-    <img src="pics_gifs/prince-roll.gif" alt="Gif of Katamari Damacy's Prince rolling the katamari" width="100" height="auto">
-    <span><p>Katamari Damacy is a third-person action/puzzle game where you roll a magical, sticky ball (the katamari) around different environments, picking up anything smaller than it. 
-  As the katamari grows, so do your rolling possibilities- from snacks, office supplies, animals, entire crowds, and ultimately, islands of the world. 
-  Every level has a size goal and a time limit, simply grow big enough and fast enough, or fail and be scolded by the King of all Cosmos. (note 1)</p></span>
+    <span><p>Welcome to a brief study of the video game:</p></span>
+    <img src="pics_gifs/logo.png" alt="Katamari Damacy America logo" width="150">
   </div>
-  
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/M7EXlS9-XpU?si=FLd84I8p85uUvGLF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+  <!-- GAMEPLAY DESCRIPTION + IMAGE -->
   <div>
-    <img src="pics_gifs/coverart.jpg" alt="Katamari Fortissmo Damacy's cover art" width="300">
-    <span><p>The story starts when the giant King of All Cosmos accidentally wipes out the stars, moon, and much of the universe. 
-  To fix his mistake, he sends his tiny son, the Prince, on a mission to Earth to roll up katamari to recreate the stars in the night sky. 
-  As the game progresses, the tasks escalate in scale and surprise, reflecting the King’s overconfidence and the growing mess of the situation.
-  </p></span>
+    <img src="pics_gifs/prince-roll.gif"
+         alt="Gif of Katamari Damacy's Prince rolling the katamari"
+         width="100">
+
+    <span>
+      <p>
+        Katamari Damacy is a third-person action and puzzle game where you roll a magical, sticky ball (the katamari)
+        around different environments, picking up anything smaller than it.
+        As the katamari grows, so do your rolling possibilities, from snacks, office supplies, animals, entire crowds,
+        and ultimately islands of the world.
+        Every level has a size goal and a time limit, simply grow big enough and fast enough, or fail and be scolded
+        by the King of All Cosmos. (note 1)
+      </p>
+    </span>
   </div>
 
-  <div><span>
-    <img src="pics_gifs/logo2.png" alt="Katamari Damacy Japan logo" width="200">
-  By the final levels, the katamari becomes massive, capable of absorbing entire environments. The Prince successfully recreates the stars and constellations, restoring the universe. 
-  The King is satisfied, though he never really takes responsibility, leaving the ending pretty funny and lighthearted.
-  </div></span>
+  <!-- VIDEO CLIP -->
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/M7EXlS9-XpU"
+    title="Katamari Damacy gameplay video"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 
-    <span><div>What makes Katamari Damacy so fun is how it constantly forces you to adapt. 
-  All of your movement, planning, and awareness has to change every time the katamari grows, echoing Ernest H. Lindley’s idea that puzzles stay engaging through mental adjustment rather than repetition (note 2). 
-At the same time, the game’s fixation on tiny, ordinary details, snacks, toys, furniture, gives it a strange sense of texture, something Roland Barthes describes as the “reality effect.” It’s silly, colorful, and chaotic, but that’s exactly why it 'sticks' with you. (note 3)
-      </div></span>
+  <!-- AUDIO CLIP -->
+  <span>
+    <p>Level music sample:</p>
+    <audio controls>
+      <source src="audio/katamari-theme.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </span>
+
+  <!-- NARRATIVE ARC -->
+  <div>
+    <img src="pics_gifs/coverart.jpg"
+         alt="Katamari Fortissimo Damacy cover art"
+         width="300">
+
+    <span>
+      <p>
+        The story starts when the giant King of All Cosmos accidentally wipes out the stars, moon,
+        and much of the universe.
+        To fix his mistake, he sends his tiny son, the Prince, on a mission to Earth to roll katamari
+        and recreate the stars in the night sky.
+        As the game progresses, the tasks escalate in scale and surprise, reflecting the King’s
+        overconfidence and the growing mess of the situation.
+      </p>
+    </span>
+  </div>
+
+  <!-- ENDING -->
+  <div>
+    <img src="pics_gifs/logo2.png"
+         alt="Katamari Damacy Japan logo"
+         width="200">
+
+    <span>
+      <p>
+        By the final levels, the katamari becomes massive, capable of absorbing entire environments.
+        The Prince successfully recreates the stars and constellations, restoring the universe.
+        The King is satisfied, though he never really takes responsibility, leaving the ending
+        pretty funny and lighthearted.
+      </p>
+    </span>
+  </div>
+
+  <!-- CONCLUSION + READINGS -->
+  <span>
+    <p>
+      What makes Katamari Damacy so fun is how it constantly forces you to adapt.
+      Your movement, planning, and awareness all have to change every time the katamari grows,
+      echoing Ernest H. Lindley’s idea that puzzles stay engaging through mental adjustment
+      rather than repetition. (note 2)
+      At the same time, the game’s fixation on tiny, ordinary details, snacks, toys, furniture,
+      gives it a strange sense of texture, something Roland Barthes describes as the “reality effect.”
+      It’s silly, colorful, and chaotic, but that’s exactly why it sticks with you. (note 3)
+    </p>
+  </span>
+
+  <!-- NOTES / BIBLIOGRAPHY -->
+  <span>
+    <p><strong>Notes</strong></p>
+    <p>
+      (1) Katamaripedia, “Katamari Damacy,” https://katamaripedia.miraheze.org/wiki/Katamari_Damacy
+    </p>
+    <p>
+      (2) Lindley, Ernest H. “A Study of Puzzles with Special Reference to the Psychology of Mental Adaptation,”
+      The American Journal of Psychology, 1922.
+    </p>
+    <p>
+      (3) Barthes, Roland. “The Reality Effect,” in The Rustle of Language, University of California Press, 1989.
+    </p>
+  </span>
+
 </body>
 </html>
